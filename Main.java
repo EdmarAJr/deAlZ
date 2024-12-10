@@ -70,7 +70,11 @@
 //     }
 // }
 
-
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+//import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.Console;
 
@@ -140,5 +144,15 @@ public class Main {
         }
 
         keyboard.close();
+
+        // FileOutputStream fos = new FileOutputStream("dealz.dat");
+        // ObjectOutputStream oos = new ObjectOutputStream(fos);
+        // oos.writeObject(students);
+        // fos.close();
+
+        FileInputStream fis = new FileInputStream("dealz.dat");
+        ObjectInputStream ois = new ObjectInputStream(fis);
+        //ArrayList<Student> myStudents = (ArrayList<Student>) ois.readObject();
+        fis.close();
     }
 }
