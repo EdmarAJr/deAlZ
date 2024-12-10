@@ -1,10 +1,11 @@
+import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.TimeZone;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Order {
+public class Order implements Serializable {
     private static int orderIncrement = 1;
     private int orderNumber;
     private final String date;

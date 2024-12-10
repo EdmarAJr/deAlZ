@@ -1,7 +1,8 @@
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class CustomerMenu {
+public class CustomerMenu implements Serializable {
     private Customer customer;
     private ShoppingCart customerCart;
     public CustomerMenu(Customer customer) {

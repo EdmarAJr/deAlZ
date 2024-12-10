@@ -1,3 +1,4 @@
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Arrays;
 import java.util.ArrayList;
@@ -9,7 +10,7 @@ import java.security.SecureRandom;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
 
-public class User{
+public class User implements Serializable {
     private static int idIncrement = 1;
     private int id;
     private String name;

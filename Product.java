@@ -1,8 +1,9 @@
 
 // import java.util.HashMap;
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Product {
+public class Product implements Serializable {
     private static int idIncrement = 1;
     private int id;
     private String name;

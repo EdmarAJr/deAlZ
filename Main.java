@@ -79,7 +79,7 @@ import java.util.Scanner;
 import java.io.Console;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
         Scanner keyboard = new Scanner(System.in);
         Console console = System.console();  // Obtém o console, se disponível
         
