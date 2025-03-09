@@ -1,0 +1,12 @@
+br/edu/ifba/inf008/App.class
+br/edu/ifba/inf008/data/FileRegister.class
+br/edu/ifba/inf008/shell/Authentication.class
+br/edu/ifba/inf008/model/ShoppingCart.class
+br/edu/ifba/inf008/model/Administrator.class
+br/edu/ifba/inf008/model/User.class
+br/edu/ifba/inf008/shell/screen/AdministratorMenu.class
+br/edu/ifba/inf008/shell/screen/CustomerMenu.class
+br/edu/ifba/inf008/model/Product.class
+br/edu/ifba/inf008/model/Customer.class
+br/edu/ifba/inf008/model/Order.class
+br/edu/ifba/inf008/shell/UserUi.class

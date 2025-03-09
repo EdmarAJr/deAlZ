@@ -1,0 +1,12 @@
+/workspaces/deAlZ/app/src/main/java/br/edu/ifba/inf008/App.java
+/workspaces/deAlZ/app/src/main/java/br/edu/ifba/inf008/data/FileRegister.java
+/workspaces/deAlZ/app/src/main/java/br/edu/ifba/inf008/model/Administrator.java
+/workspaces/deAlZ/app/src/main/java/br/edu/ifba/inf008/model/Customer.java
+/workspaces/deAlZ/app/src/main/java/br/edu/ifba/inf008/model/Order.java
+/workspaces/deAlZ/app/src/main/java/br/edu/ifba/inf008/model/Product.java
+/workspaces/deAlZ/app/src/main/java/br/edu/ifba/inf008/model/ShoppingCart.java
+/workspaces/deAlZ/app/src/main/java/br/edu/ifba/inf008/model/User.java
+/workspaces/deAlZ/app/src/main/java/br/edu/ifba/inf008/shell/Authentication.java
+/workspaces/deAlZ/app/src/main/java/br/edu/ifba/inf008/shell/UserUi.java
+/workspaces/deAlZ/app/src/main/java/br/edu/ifba/inf008/shell/screen/AdministratorMenu.java
+/workspaces/deAlZ/app/src/main/java/br/edu/ifba/inf008/shell/screen/CustomerMenu.java
